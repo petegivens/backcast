@@ -9,7 +9,7 @@ var Video = Backbone.Model.extend({
   },
 
   select: function() {
+    // console.log('I am clicked', this.attributes.title);
     this.trigger('select', this);
   }
-
 });
